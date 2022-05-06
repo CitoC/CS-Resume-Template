@@ -1,0 +1,191 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Developer CV
+% LaTeX Template
+% Version 1.0 (28/1/19)
+%
+% This template originates from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Jan Vorisek (jan@vorisek.me)
+% Based on a template by Jan Küster (info@jankuester.com)
+% Modified for LaTeX Templates by Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[9pt]{developercv} % Default font size, values from 8-12pt are recommended
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.45\textwidth} % 45% of the page width for name
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% If your name is very short, use just one of the lines below
+	% If your name is very long, reduce the font size or make the minipage wider and reduce the others proportionately
+	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{First Name}}}}} % First name
+	
+	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Last Name}}}}} % Last name
+	
+	\vspace{6pt}
+	
+	{\huge } % Career or current job title
+\end{minipage}
+\begin{minipage}[t]{0.35\textwidth} % 27.5% of the page width for the first row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+	\icon{MapMarker}{12}{Your address}\\
+	\icon{Phone}{12}{Your Phone}\\
+	\icon{At}{12}{\href{mailto:[your email]}{Your Email}}\\
+\end{minipage}
+\begin{minipage}[t]{0.275\textwidth} % 27.5% of the page width for the second row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+	\icon{Linkedin}{12}{\href{https://www.youtube.com/watch?v=dQw4w9WgXcQ}{Your LinkedIn}}\\
+	\icon{Github}{12}{\href{https://www.youtube.com/watch?v=iik25wqIuFo}{Your Github}}\\
+\end{minipage}
+
+\vspace{0.5cm}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\cvsect{Education}
+
+\begin{entrylist}
+	\entry
+		{}
+		{Your School}
+		{September 2020 - June 2022}
+		{•   Lorem\\
+		•	Lorem\\
+		•	Lorem\\
+		•	Lorem
+		}
+	%\entry
+	%	{}
+	%	{Associate in Math and Science}
+	%	{Los Angeles City College}
+	%	{•  GPA of 4.0.\\
+	%	•	Recipient of Dean's Honor List.}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\cvsect{Related Experience}
+
+\begin{entrylist}
+	\entry
+        {}
+		{Title}
+		{January 2022 - Present}
+		{•   Lorem\\
+		•	Lorem\\
+		•	Lorem\\
+		•	Lorem\\
+		\texttt{Java}\slashsep\texttt{Spring}\slashsep\texttt{SQL}\slashsep\texttt{Git}\slashsep\texttt{JIRA}}
+		
+    \entry
+        {}
+        {Title}
+        {January 2022 - March 2022}
+        {•   Lorem\\
+		•	Lorem\\
+		•	Lorem\\
+		•	Lorem\\
+        \texttt{Python}\slashsep\texttt{Git}\slashsep\texttt{Trello}}
+        
+	\entry
+        {}
+		{Title}
+		{September 2021 - December 2021}
+		{•   Lorem\\
+		•	Lorem\\
+		•	Lorem\\
+		•	Lorem\\
+		\texttt{C}\slashsep\texttt{Python}\slashsep\texttt{gdb}}
+		
+	\entry
+        {}
+		{Title}
+		{September 2019 - June 2020}
+		{•   Lorem\\
+		•	Lorem\\
+		•	Lorem\\
+		•	Lorem\\
+		\texttt{C++}\slashsep\texttt{Python}}
+
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+% SKILLS AND TECHNOLOGIES
+%----------------------------------------------------------------------------------------
+\cvsect{Skills \& Technologies}
+
+\begin{minipage}[t]{0.3\textwidth} % 50% of the page for the skills bar chart
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\begin{itemize}
+		\item C++
+		\item C
+		\item Python
+		\item Bash
+		\item Git
+	\end{itemize}
+\end{minipage}
+\hfill % Whitespace between
+\begin{minipage}[t]{0.3\textwidth} % 50% of the page for the skills bar chart
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\begin{itemize}
+		\item Java
+		\item SQL
+		\item LaTex
+		\item Markdown
+	\end{itemize}
+\end{minipage}
+\hfill % Whitespace between
+\begin{minipage}[t]{0.3\textwidth} % 50% of the page for the skills bar chart
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\begin{itemize}
+	    \item VS Code
+	    \item Linux
+	    \item Office
+	    \item MySQL
+	    \item JIRA
+	\end{itemize}
+\end{minipage}
+
+\vskip 0.35in
+
+%----------------------------------------------------------------------------------------
+%	ADDITIONAL INFORMATION
+%----------------------------------------------------------------------------------------
+\begin{minipage}[t]{0.3\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+    
+	\cvsect{Languages}
+	
+	\textbf{Chinese} - fluent\\
+	\textbf{Burmese} - fluent
+\end{minipage}
+%----------------------------------------------------------------------------------------
+    
+\end{document}
